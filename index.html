@@ -9,15 +9,31 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./images/favicon-32x32.png"
+      href="./assets/images/favicon-32x32.png"
     />
     <title>Frontend Mentor | News homepage</title>
     <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
   </head>
   <body>
     <main>
+      <div id="mobile__menu" class="">
+        <svg id="ECS" width="32" height="31" xmlns="http://www.w3.org/2000/svg">
+          <g fill="#00001A" fill-rule="evenodd">
+            <path d="m2.919.297 28.284 28.284-2.122 2.122L.797 2.419z" />
+            <path d="M.797 28.581 29.081.297l2.122 2.122L2.919 30.703z" />
+          </g>
+        </svg>
+        <ul id="mobile__list">
+          <li class="mobile__item">Home</li>
+          <li class="mobile__item">New</li>
+          <li class="mobile__item">Popular</li>
+          <li class="mobile__item">Trending</li>
+          <li class="mobile__item">Categories</li>
+        </ul>
+      </div>
       <header>
-        <img id="header__image" src="./images/logo.svg" alt="Logo" />
+        <img id="header__image" src="/assets/images/logo.svg" alt="Logo" />
         <nav>
           <ul>
             <li>Home</li>
@@ -25,7 +41,7 @@
             <li>Popular</li>
             <li>Trending</li>
             <li>Categories</li>
-            <li class="menu">
+            <li id="menu__icon">
               <svg width="40" height="17" xmlns="http://www.w3.org/2000/svg">
                 <g fill="#00001A" fill-rule="evenodd">
                   <path d="M0 0h40v3H0zM0 7h40v3H0zM0 14h40v3H0z" />
@@ -41,11 +57,7 @@
           <div id="first">
             <img
               id="hero__image"
-              srcset="
-                ./images/image-web-3-mobile.jpg,
-               ./images/image-web-3-desktop.jpg 2x
-              "
-              src="/images/image-web-3-mobile.jpg"
+              src="/assets/images/image-web-3-mobile.jpg"
               alt="Photo of a Lego Set"
             />
 
@@ -88,7 +100,7 @@
           <img
             class="grid__image"
             alt="old computer"
-            src="./images/image-retro-pcs.jpg"
+            src="/assets/images/image-retro-pcs.jpg"
           />
           <div class="grid__text">
             <h4>01</h4>
@@ -102,7 +114,7 @@
           <img
             class="grid__image"
             alt="few laptops laid down"
-            src="./images/image-top-laptops.jpg"
+            src="/assets/images/image-top-laptops.jpg"
           />
           <div class="grid__text">
             <h4>02</h4>
@@ -116,7 +128,7 @@
           <img
             class="grid__image"
             alt="PS4 controller in the air"
-            src="./images/image-gaming-growth.jpg"
+            src="/assets/images/image-gaming-growth.jpg"
           />
           <div class="grid__text">
             <h4>03</h4>
