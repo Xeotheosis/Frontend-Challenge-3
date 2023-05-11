@@ -23,8 +23,8 @@ window.addEventListener('resize', function() {
   var img = document.getElementById('hero__image');
 
   if (window.innerWidth < 600) {
-    img.src = "/assets/images/image-web-3-mobile.jpg";
+    img.src = "./images/image-web-3-mobile.jpg";
   } else {
-    img.src = "/assets/images/image-web-3-desktop.jpg";
+    img.src = "./images/image-web-3-desktop.jpg";
   }
 });
